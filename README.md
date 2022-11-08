@@ -204,10 +204,11 @@ For each sample of the project you can configure the exercise mode and determine
 
 | Exercise level     |property  |
 | ------------------- |--------------------------------------------------------------------------  |
-| `1:teacher_visible`| <div style="width:100%,">the students can see the reference tree, but cannot modify it directly – they have to redraw the tree from an empty annotation   </div>    |
-| `2:local_feedback`|        |
-|`3:global_feedback`|         |
-|`4:no_feedback`|<div style="width:100%,"> where only the teacher can receive the student’s score.</div>|
+| `1:teacher_visible`| <div style="width:100%,">When Editing, the students can see the teacher's tree, the differences are highlighted in red and they can access to the statistics</div>|
+| `2:local_feedback`|<div style="width:100%,">Here the teacher's tree is not visible, the differences still highlighted and they can access to the statistics.</div> |
+|`3:global_feedback`|The students can only access to the success statistics|
+|`4:no_feedback`|<div style="width:100%,">Nothing is provided only the teacher can see the statistics</div>|
+
 
 ?> The teacher can export the results of the students into spreadsheets.
 
