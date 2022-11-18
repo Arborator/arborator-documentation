@@ -171,10 +171,19 @@ trees on the results page.
 !> In order to detect the errors, it can filter out these results based on negative
 patterns (patterns that must not appear in the graph). Once the faulty tree has been found, it  can then directly be
 edited and saved.
+#### Apply rules
+
+With Arborator Grew you can rewrite a rule (see **[Grew Rules](https://grew.fr/doc/rule/)**). 
+
+<div style="text-align:center">
+<img src="assets/images/9-Apply-Rule.png" alt="drawing" width="900"/>
+</div>
+
+The nodes that matches the rule will be also highlighted in the result page. To save the results the user click on apply rules button.
 
 ### Relation tables
 
-Grew also has the ability to cluster
+Arborator Grew also has the ability to cluster
 the results of a query based on one or several features. 
 
 ?> This functionality can be used to build a relation table which
