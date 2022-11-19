@@ -136,11 +136,13 @@ There is a toolbar located on the top  left of the document area. From it the us
 
 - Each time a change is made in the tree (e.g. new annotation or relation added), yellow diskette will appear to indicate there are changes to **save**. Click on the **Save button** to **save** the changes. 
 
+- You can edit,remove or split tokens either by selecting the sentence or using the edit icon.
+
 - You can edit the meta data related to the sentence. 
 
 - You have also the possibility to get a direct `link`, `SVG` file and `CONLL` of the tree.
 
-- You can add a new token to the tree. Besides that, you can undo and redo changes.
+
 
 
 <div style="text-align:center">
