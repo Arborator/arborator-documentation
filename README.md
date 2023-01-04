@@ -202,10 +202,6 @@ directly the trees that match the negative pattern and update it.
 ### Lexicon 
 Lexicon is one of the advanced options available in **[Arborator-Grew](https://arboratorgrew.elizia.net/#)**. The user can select the desired features that will be displayed in the lexicon table. The user can also access to the trees related to the lexicon entry. The lexicon can be exported in `TSV` and `JSON` format.
 
-<div style="text-align:center">
-<img src="assets/images/10-Select-features-lexicon.png" alt="drawing" width="900"/>
-</div> 
-
  The user will be able to detect ambiguous entries and correct them directly using the grew rewrite rule option.
 <div style="text-align:center">
 <img src="assets/images/11-Modified-lexicon.png" alt="drawing" width="900"/>
