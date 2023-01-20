@@ -99,7 +99,7 @@ the correct version if the annotators disagree.
 
 ### Inviting Collaborators
 
-You can directly invitating collaborators to your project by browsing to the project settings. You can choose to invite adminstrators, annotators or other guests. There, click on add button you will find a list of different users of the system you can select and add other user collaborators or and use the search field to find them.
+You can directly invitating collaborators to your project by browsing to the project settings. You can choose to invite adminstrators or annotators. There, click on add button you will find a list of different users of the system you can select and add other user collaborators or use the search field to find them.
 
 <div style="text-align:center">
 <img src="assets/images/3-Add-guest.png" alt="drawing" width="900"/>
@@ -137,8 +137,6 @@ There is a toolbar located on the top  left of the document area. From it the us
 - Each time a change is made in the tree (e.g. new annotation or relation added), yellow diskette will appear to indicate there are changes to **save**. Click on the **Save button** to **save** the changes. 
 
 - You can edit,remove or split tokens either by selecting the sentence or using the edit icon.
-
-- You can edit the meta data related to the sentence. 
 
 - You have also the possibility to get a direct `link`, `SVG` file and `CONLL` of the tree.
 
@@ -200,9 +198,27 @@ rare structures and potential errors inside a treebank. The user can access
 directly the trees that match the negative pattern and update it. 
 
 ### Lexicon 
-Lexicon is one of the advanced options available in **[Arborator-Grew](https://arboratorgrew.elizia.net/#)**. The user can select the desired features that will be displayed in the lexicon table. The user can also access to the trees related to the lexicon entry. The lexicon can be exported in `TSV` and `JSON` format.
+Lexicon is one of the advanced options available in **[Arborator-Grew](https://arboratorgrew.elizia.net/#)**. The user can select the desired features that will be displayed in the lexicon table. 
 
- The user will be able to detect ambiguous entries and correct them directly using the grew rewrite rule option.
+<div style="text-align:center">
+<img src="assets/images/10-Select-features-lexicon.png" alt="drawing" width="900"/>
+</div>
+
+The user can also access to the trees related to the lexicon entry. The lexicon can be exported in `TSV` and `JSON` format.
+
+<div style="text-align:center">
+<img src="assets/images/11-lexicon.png" alt="drawing" width="900"/>
+</div>
+
+ The user will be able to detect ambiguous entries based on their features using the select input.  
+
+<div style="text-align:center">
+<img src="assets/images/12-lexicon-ambiguous.png" alt="drawing" width="900"/>
+</div>
+
+This option will keep the entries where there is more than one couple of value for `Gender` and `Number` with the same combination (`Form`, `Lemma`, `Pos`, `Gloss`). 
+ 
+After that, the user can correct them directly using the grew rewrite rule option.
 <div style="text-align:center">
 <img src="assets/images/11-Modified-lexicon.png" alt="drawing" width="900"/>
 </div> 
