@@ -79,6 +79,8 @@ Once the project is created the adminstrator can configure the following setting
 <img src="assets/images/8-project-configuration.png" alt="drawing" width="900"/>
 </div>
 
+A new project uses by default standard [SUD](https://surfacesyntacticud.github.io/) annotation scheme, the user can switch to standard [UD](https://universaldependencies.org/) or propose other scheme in the Annotation settings section.
+
 
 ## Collaborating in projects 
 
