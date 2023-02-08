@@ -68,11 +68,11 @@ The required fields to create new project on Arborator-Grew in descending order 
 Once you have provided the required information alongside your project, click on “Create” and your project will be created.
 
 ## Project Configuration
-Once the project is created the adminstrator can configure the following settings:
+Once the project is created the administrator can configure the following settings:
 
-- The visibility control, the adminstrator can update the visibility of the project.
-- The adminstartor can also update trees' visibility, Exercise mode, Diff mode.
-- The adminstartor can select user to be used as a reference for the comparaison.
+- The visibility control, the administrator can update the visibility of the project.
+- The adminstartor can enable trees' visibility and [Exercise mode](#exercise-mode) options.
+- The administrator can enable the Diff mode option. It allows the user to compare the current opened tree to the diff user tree, the differences will be highlighted. 
 - In order to maximize the usefulness of the project, you can upload cover image and add description.
 
 <div style="text-align:center">
@@ -101,7 +101,7 @@ the correct version if the annotators disagree.
 
 ### Inviting Collaborators
 
-You can directly invitating collaborators to your project by browsing to the project settings. You can choose to invite adminstrators or annotators. There, click on add button you will find a list of different users of the system you can select and add other user collaborators or use the search field to find them.
+You can directly invitating collaborators to your project by browsing to the project settings. You can choose to invite administrators or annotators. There, click on add button you will find a list of different users of the system you can select and add other user collaborators or use the search field to find them.
 
 <div style="text-align:center">
 <img src="assets/images/3-Add-guest.png" alt="drawing" width="900"/>
