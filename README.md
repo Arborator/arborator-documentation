@@ -8,6 +8,7 @@ Below is brief summary of Arborator's main features and user cases. For more det
 
 Let's have a look at the documentation.
 
+
 ## Main Features
 
 Arborator-Grew combines the features of two preexisting tools: `Arborator` and `Grew`. 
