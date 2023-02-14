@@ -200,31 +200,40 @@ rare structures and potential errors inside a treebank. The user can access
 directly the trees that match the negative pattern and update it. 
 
 ### Lexicon 
-Lexicon is one of the advanced options available in **[Arborator-Grew](https://arboratorgrew.elizia.net/#)**. The user can select the desired features that will be displayed in the lexicon table. 
+Lexicon is one of the advanced options available in **[Arborator-Grew](https://arboratorgrew.elizia.net/#)**. The user select two list of features.
+- $L_1 = [f_1, …, f_m]$ as main features.
+- $L_2 = [g_1, …, g_m]$ as auxiliary features.
 
 <div style="text-align:center">
 <img src="assets/images/10-Select-features-lexicon.png" alt="drawing" width="900"/>
 </div>
 
-The user can also access to the trees related to the lexicon entry. The lexicon can be exported in `TSV` and `JSON` format.
+The output table corresponds to the possible values of all features, such that for all tuples of values for $f_i$, there is more than one tuples of values for $g_i$. The idea is to show only $f$ values which are ambiguous with respect to 
+values $g$.
+
+#### Exemple 
+
+For  $L_1 = [$`Form`, `Lemma`, `Upos`$]$ and $L_2 = [$`Gender `, `Number`$]$ 
 
 <div style="text-align:center">
-<img src="assets/images/11-lexicon.png" alt="drawing" width="900"/>
+<img src="assets/images/11-lexicon-exemple.png" alt="drawing" width="900"/>
 </div>
 
- The user will be able to detect ambiguous entries based on their features using the select input.  
+This will show the entries where there is more than one couple of value for `Gender` and `Number` with the same combination (`Form`, `Lemma`, `Upos`)
+
 
 <div style="text-align:center">
 <img src="assets/images/12-lexicon-ambiguous.png" alt="drawing" width="900"/>
 </div>
-
-This option will keep the entries where there is more than one couple of value for `Gender` and `Number` with the same combination (`Form`, `Lemma`, `Pos`, `Gloss`). 
  
 After that, the user can correct them directly using the grew rewrite rule option.
+<br/><br/>
 <div style="text-align:center">
-<img src="assets/images/11-Modified-lexicon.png" alt="drawing" width="900"/>
+<img src="assets/images/13-modify-lexicon.png" alt="drawing" width="900"/>
 </div> 
 
+
+?> The second list $L_2$ is optional, if it is not given all the entries of lexicon are displayed.
 
 
 
