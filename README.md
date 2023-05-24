@@ -38,7 +38,7 @@ Arborator-Grew works with two types of social login using  **[Google]()** and **
 
 Use the top right button to select the corresponding social login.
 <div style="text-align:center">
-<img src="assets/images/1-Social_login.png" alt="drawing" width="200"/>
+      <img src="assets/images/1-Social_login.png" alt="drawing" width="200"/>
 </div>
 
 ## Create a new project 
@@ -53,7 +53,7 @@ You have the possibility to create `Private` project to work on individually or 
 To create new project, you start by navigating to the **[Projects list](https://arboratorgrew.elizia.net/#/projects)**. You will find there add button, click on it to open the new project modal.
 
 <div style="text-align:center">
-<img src="assets/images/2-Project-creation.png" alt="drawing" width="300"/>
+      <img src="assets/images/2-Project-creation.png" alt="drawing" width="300"/>
 </div>
 
 
@@ -77,7 +77,7 @@ Once the project is created the administrator can configure the following settin
 - In order to maximize the usefulness of the project, you can upload cover image and add description.
 
 <div style="text-align:center">
-<img src="assets/images/8-project-configuration.png" alt="drawing" width="900"/>
+      <img src="assets/images/8-project-configuration.png" alt="drawing" width="900"/>
 </div>
 
 A new project uses by default standard [SUD](https://surfacesyntacticud.github.io/) annotation scheme, the user can switch to standard [UD](https://universaldependencies.org/) or propose other scheme in the Annotation settings section.
@@ -105,7 +105,7 @@ the correct version if the annotators disagree.
 You can directly invitating collaborators to your project by browsing to the project settings. You can choose to invite administrators or annotators. There, click on add button you will find a list of different users of the system you can select and add other user collaborators or use the search field to find them.
 
 <div style="text-align:center">
-<img src="assets/images/3-Add-guest.png" alt="drawing" width="900"/>
+      <img src="assets/images/3-Add-guest.png" alt="drawing" width="900"/>
 </div>
 
 
@@ -127,9 +127,9 @@ To get started with the treebank annotation, you need to import `CoNLL` file as 
 
 
 <div style="text-align:center">
-<video autoplay loop width="900">
-      <source src="assets/videos/1-Annotation.webm" type=video/webm>
-</video>
+      <video autoplay loop width="900">
+            <source src="assets/videos/1-Annotation.webm" type=video/webm>
+      </video>
 </div>
 
 
@@ -147,7 +147,7 @@ There is a toolbar located on the top  left of the document area. From it the us
 
 
 <div style="text-align:center">
-<img src="assets/images/4-Functionnalities.png" alt="drawing" width="400"/>
+      <img src="assets/images/4-Functionnalities.png" alt="drawing" width="400"/>
 </div>
 
 
@@ -160,14 +160,14 @@ One of the powerful features of Arborator grew is the pattern matching system. A
 ?> You can search based on `POS query`, `Form query`, `Lemma query`, `Dependency relation query` and `Relation and tags query`
 
 <div style="text-align:center">
-<img src="assets/images/5-Grew-search.png" alt="drawing" width="900"/>
+      <img src="assets/images/5-Grew-search.png" alt="drawing" width="900"/>
 </div>
 
 ?> The nodes that match the pattern are then highlighted in the
 trees on the results page.
 
 <div style="text-align:center">
-<img src="assets/images/6-Grew-result.png" alt="drawing" width="900"/>
+      <img src="assets/images/6-Grew-result.png" alt="drawing" width="900"/>
 </div>
 
 
@@ -179,7 +179,7 @@ edited and saved.
 With Arborator Grew you can rewrite a rule (see **[Grew Rules](https://grew.fr/doc/rule/)**). 
 
 <div style="text-align:center">
-<img src="assets/images/9-Apply-Rule.png" alt="drawing" width="900"/>
+      <img src="assets/images/9-Apply-Rule.png" alt="drawing" width="900"/>
 </div>
 
 The nodes that matches the rule will be also highlighted in the result page. To save the results the user click on apply rules button.
@@ -193,7 +193,7 @@ the results of a query based on one or several features.
 summarizes all dependencies within a project, based on the dependency relation. 
 
 <div style="text-align:center">
-<img src="assets/images/7-Relation-table.png" alt="drawing" width="900"/>
+      <img src="assets/images/7-Relation-table.png" alt="drawing" width="900"/>
 </div> 
 
 !> Having this is a great way to look for
@@ -206,7 +206,7 @@ Lexicon is one of the advanced options available in **[Arborator-Grew](https://a
 - $L_2 = [g_1, …, g_m]$ as auxiliary features.
 
 <div style="text-align:center">
-<img src="assets/images/10-Select-features-lexicon.png" alt="drawing" width="900"/>
+      <img src="assets/images/10-Select-features-lexicon.png" alt="drawing" width="900"/>
 </div>
 
 The output table corresponds to the possible values of all features, such that for all tuples of values for $f_i$, there is more than one tuples of values for $g_i$. The idea is to show only $f$ values which are ambiguous with respect to 
@@ -217,20 +217,20 @@ values $g$.
 For  $L_1 = [$`Form`, `Lemma`, `Upos`$]$ and $L_2 = [$`Gender `, `Number`$]$ 
 
 <div style="text-align:center">
-<img src="assets/images/11-lexicon-exemple.png" alt="drawing" width="900"/>
+      <img src="assets/images/11-lexicon-exemple.png" alt="drawing" width="900"/>
 </div>
 
 This will show the entries where there is more than one couple of value for `Gender` and `Number` with the same combination (`Form`, `Lemma`, `Upos`)
 
 
 <div style="text-align:center">
-<img src="assets/images/12-lexicon-ambiguous.png" alt="drawing" width="900"/>
+      <img src="assets/images/12-lexicon-ambiguous.png" alt="drawing" width="900"/>
 </div>
  
 After that, the user can correct them directly using the grew rewrite rule option.
 <br/><br/>
 <div style="text-align:center">
-<img src="assets/images/13-modify-lexicon.png" alt="drawing" width="900"/>
+      <img src="assets/images/13-modify-lexicon.png" alt="drawing" width="900"/>
 </div> 
 
 
@@ -264,6 +264,101 @@ For each sample of the project you can configure the exercise mode and determine
 
 ?> The teacher can export the results of the students into spreadsheets.
 
+
+## Github Synchronization (upcoming feature)
+
+ArboratorGrew can easily link your project to a github repository.  Many linguists are using Github to hold their treebanks, ArboratorGrew allows you to synchronize with Github in order to follow your updated annotation. Besides that, you can benefit from the collaborative aspect of Github in your ArboratorGew project, if you have collaborators that work directly from Gihtub.
+
+!> In case you have many collaborator working directly from Github, you should  follow some good practices in order to avoid any kind of troubleshooting. These practices are detailed in the following sections.
+
+### Connect using Github Social login
+
+The first step to use this features is to login to ArboratorGrew using your github account in order to grant the access for your github repositories.
+
+### Synchronize your ArboratorGrew project with your Github respository
+
+!> Only the project owner, who can synchronize with Github.
+
+Once you're connected with your Github account, you can synchronize your ArboratorGrew project with Github repository. You need to be the owner or have read and write access to this repository. This synchronization can be made while creating new ArboratorGrew project.
+
+- At "create new project" modal you will have a button  that asks you to synchronize with github repository.
+<div style="text-align:center">
+      <img src="assets/images/14-github-sync.png" alt="drawing" width="900"/>
+</div> 
+
+- You will get a list of all your github repositories filtered by the owner.
+- Select the repository that you want to sync with and the branch that you want to import.
+- After that, you will have two options: work with the branch you selected in the previous step so that all commits and pulls will be in it. Or create a new branch named arboratorgrew which will be used only for commits and pulls made with ArboratorGrew. This option will allow you not to affect the main codebase.
+
+<div style="text-align:center">
+      <img src="assets/images/15-github-sync.png" alt="drawing" width="900"/>
+</div> 
+
+- ArboratorGrew will import only the conll files that are in the root of your github repository. make sure that your github repository have flattend representation.
+
+### Github workflow
+
+<div style="text-align:center">
+      <img src="assets/images/16-github-sync.png" alt="drawing" width="1000"/>
+</div> 
+
+
+#### Push to Github
+
+Once your ArboratorGrew project is synchronized with a specific repository and branch, all the changes you made in your project are counted (Save trees, upload new sample, delete sample). When you're ready to commit those changes, you click on the commit button in Github options dropdown.
+
+- It will prompt you to enter a commit message.
+- You can choose wether to push only your trees or your trees filled up with the most recent ones.
+
+<div style="text-align:center">
+      <img src="assets/images/17-github-sync.png" alt="drawing" width="900"/>
+</div> 
+
+#### Pull from Github
+
+ArboratorGrew will only listen to changes made in the branch selected in the previous steps (arboratorgrew or the syncronized branch). if you want to pull down the changes click on the pull button in the github options dropdown, that will refresh the sync in order to obtain the new changes made in your github repository.
+
+<div style="text-align:center">
+      <img src="assets/images/18-github-sync.png" alt="drawing" width="900"/>
+</div> 
+
+#### Pull request
+Once you ready to merge your changes in another branch, you can click on the pull request button. This will allow you to create new pull request.
+
+<div style="text-align:center">
+      <img src="assets/images/19-github-sync.png" alt="drawing" width="900"/>
+</div> 
+
+#### Desynchronize from github
+If you want to disconnect from the github synchronization you can remove it from the remove synchronization button. The files will not be deleted from either github repository or your ArboratorGrew project.
+
+### Best practices
+
+As mentionned above, There are two ways to use the Github Feature. The first is that you're the only person mainting the treebank in ArboratorGrew and you're using the Gihtub as storage. In this case you can work with default branch without using arboratorgrew branch.
+The second way for using Github feature is to collaborate with persons working on the treebank directly from Github. Make sure to follow these steps to prevent any conflictual issue.
+
+?> Use arboratorgrew branch on Github and make sure that only one person who can modify it from Github.
+
+!> If you have uncommitted changes made by the collaborators working on ArboratorGrew and at the same time you're pulling changes from Github, the uncommitted changes in ArboratorGrew will be lost and overwritten by the pulled changes.
+
+If you're working with arboratorgrew branch from Github you should proceed as follow:
+
+1. Push all the changes made from ArboratorGrew to Github.
+2. Try not to work on the treebank from ArboratorGrew. To do this, you need to deactivate your project using freeze project feature. This will prevent the projects annotators from adding new changes while performing the next steps.
+
+<div style="text-align:center">
+      <img src="assets/images/20-github-sync.png" alt="drawing" width="900"/>
+</div> 
+
+3. Merge the modifications done outside arboratorgrew branch from Github.
+
+?> While updating arboratorgrew branch you might have some conflicts, try to solve it directly from Github.
+
+4. Pull the changes from Github to your ArboratorGrew branch.
+
+!> If ArboratorGrew detect invalid syntax your changes will not be pulled. Make sure that the changes done in Github are valid.
+
+5. In this step you can unfreeze your ArboratorGrew project.
 
 
 
