@@ -281,9 +281,15 @@ The first step to use this features is to login to ArboratorGrew using your gith
 
 Once you're connected with your Github account, you can synchronize your ArboratorGrew project with Github repository. You need to be the owner or have read and write access to this repository. This synchronization can be made while creating new ArboratorGrew project.
 
-- At "create new project" modal you will have a button  that asks you to synchronize with github repository.
+- At "create new project" modal you will have a button that asks you to synchronize with github repository.
 <div style="text-align:center">
       <img src="assets/images/14-github-sync.png" alt="drawing" width="900"/>
+</div> 
+
+- Or when you click on Github icon in the project page.
+
+<div style="text-align:center">
+      <img src="assets/images/21-github-sync.png" alt="drawing" width="900"/>
 </div> 
 
 - You will get a list of all your github repositories filtered by the owner.
@@ -359,6 +365,24 @@ If you're working with arboratorgrew branch from Github you should proceed as fo
 !> If ArboratorGrew detect invalid syntax your changes will not be pulled. Make sure that the changes done in Github are valid.
 
 5. In this step you can unfreeze your ArboratorGrew project.
+
+!> It may happen that you can't find certain organization repositories in your repository list when synchronizing. This happens when you forget to grant access to this organization when you connect to ArboratorGrew with your github account.
+To solve this problem, you need to :
+1.  Go to https://github.com/settings/applications 
+2. Revoke the access to Arborator flask application.
+<div style="text-align:center">
+      <img src="assets/images/22-github-sync.png" alt="drawing" width="900"/>
+</div>  
+
+3. Try to reconnect to ArboratorGrew.
+4. You will be redirect to a page where you can select the organization to which you want to grant access.
+
+<div style="text-align:center">
+      <img src="assets/images/23-github-sync.png" alt="drawing" width="900"/>
+</div> 
+
+
+
 
 
 
