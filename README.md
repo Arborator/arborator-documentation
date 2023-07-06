@@ -53,7 +53,7 @@ You have the possibility to create `Private` project to work on individually or 
 To create new project, you start by navigating to the **[Projects list](https://arboratorgrew.elizia.net/#/projects)**. You will find there add button, click on it to open the new project modal.
 
 <div style="text-align:center">
-      <img src="assets/images/2-Project-creation.png" alt="drawing" width="300"/>
+      <img src="assets/images/2-Project-creation.png" alt="drawing" width="900"/>
 </div>
 
 
@@ -92,9 +92,6 @@ project, and admit and assign other users (administrators, validators, and annot
 
 ?> Also, we can distinguish the following roles:
 
-- `Guest` If the project is
-public, **guests** can browse and query, but not modify
-the treebank.
 - `Annotator` Each sample has a list of **annotators**. **Annotators** can browse and modify the treebank (modify in the sense that a modified tree is saved under their name). 
 
 - `Validators` of a sample can see all the trees and choose
@@ -112,7 +109,15 @@ You can directly invitating collaborators to your project by browsing to the pro
 
 ## Treebank Graphic Annotation
 
-To get started with the treebank annotation, you need to import `CoNLL` file as an input. Arborator translates any `CoNLL` data inside `<conll>` tags into graphical trees. In the annotation user interface: 
+To get started with the treebank annotation, you have two options: 
+- Import `CoNLL` file as an input. 
+- Introduce text as input and use the different options of the tokenizer.
+
+<div style="text-align:center">
+      <img src="assets/images/24-upload-sample.png" alt="drawing" width="900"/>
+</div>
+
+Arborator translates the conll data inside into graphical trees. In the annotation user interface: 
 
 ?> To make a dependency relation between two tokens, you just need to pull the bow from the token to the other. 
 
@@ -144,11 +149,17 @@ There is a toolbar located on the top  left of the document area. From it the us
 - You have also the possibility to get a direct `link`, `SVG` file and `CONLL` of the tree.
 
 
-
-
 <div style="text-align:center">
       <img src="assets/images/4-Functionnalities.png" alt="drawing" width="400"/>
 </div>
+
+- You can merge tokens, split tokens or insert a token in a specific place. Simply select the token in question from the sentence input in the tree view, you will get these options.
+
+<div style="text-align:center">
+      <img src="assets/images/25-token-edit.png" alt="drawing" width="200"/>
+</div>
+
+
 
 
 ## Advanced Options
