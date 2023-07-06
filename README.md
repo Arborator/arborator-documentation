@@ -26,9 +26,6 @@ creating, updating, maintaining, and curating syntactic treebanks and semantic g
 > **[Arborator Grew](https://arboratorgrew.elizia.net/#/)** is adapted better to
 **[UD Universal Dependencies](https://universaldependencies.org/)** (Treebank annotation grammar) and **[SUD Surface Syntactic Universal Dependencies](https://surfacesyntacticud.github.io/)** (Distribution based version of UD).
 
-
-
-
 # User Guide 
 
 ## Login 
@@ -144,10 +141,9 @@ There is a toolbar located on the top  left of the document area. From it the us
 
 - Each time a change is made in the tree (e.g. new annotation or relation added), yellow diskette will appear to indicate there are changes to **save**. Click on the **Save button** to **save** the changes. 
 
-- You can edit,remove or split tokens either by selecting the sentence or using the edit icon.
+- You can activate the difference mode to highlight annotation differences between annotators in the tree structure. This feature can also be activated directly by right-clicking on the user for which you look for differences.  
 
 - You have also the possibility to get a direct `link`, `SVG` file and `CONLL` of the tree.
-
 
 <div style="text-align:center">
       <img src="assets/images/4-Functionnalities.png" alt="drawing" width="400"/>
@@ -161,14 +157,13 @@ There is a toolbar located on the top  left of the document area. From it the us
 
 
 
-
 ## Advanced Options
 
 ### Grew search
 
 One of the powerful features of Arborator grew is the pattern matching system. Arborator uses **[Grew](https://grew.fr/)**.
 
-?> You can search based on `POS query`, `Form query`, `Lemma query`, `Dependency relation query` and `Relation and tags query`
+?> You can search based on `POS query`, `Form query`, `Lemma query`, `Dependency relation query` and `Relation and tags query` on the selected trees type.
 
 <div style="text-align:center">
       <img src="assets/images/5-Grew-search.png" alt="drawing" width="900"/>
@@ -185,6 +180,14 @@ trees on the results page.
 !> In order to detect the errors, it can filter out these results based on negative
 patterns (patterns that must not appear in the graph). Once the faulty tree has been found, it  can then directly be
 edited and saved.
+
+You can also display divergences between user annotations using the "Show divergences" option, based on specific features. You must therefore first select a set of features and a set of users for whom you are looking for differences. The user set must contain at least two users. The feature set can be empty, in which case ArboratorGrew will detect any differences that exist between user trees. 
+Once the result are displayed activate the diff mode to highlight those divergences.
+
+<div style="text-align:center">
+      <img src="assets/images/26-show-divergences.png" alt="drawing" width="600"/>
+</div>
+
 #### Apply rules
 
 With Arborator Grew you can rewrite a rule (see **[Grew Rules](https://grew.fr/doc/rule/)**). 
