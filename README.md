@@ -84,22 +84,31 @@ A new project uses by default standard [SUD](https://surfacesyntacticud.github.i
 
 Collaborative annotation is one of powerful features of Arborator-Grew. It provides a way to multiple users to share the access of the project so they can work together.
 
-When you create a project, you are  assigned as the owner and the **administrator** of the dataset. An **administrator** can change the status of the
-project, and admit and assign other users (administrators, validators, and annotators). They can also upload new samples to the project, create exercises, and determine the POS and relational tagsets.
+When you create a project, you are the **owner**. In this case, you have total control over the treebank. You can manage its configuration, invite collaborators and view the trees of other users. 
+
 
 ?> Also, we can distinguish the following roles:
 
+- `Administrator` has the same options as the **owner** except the github synchronization and the project freezing, The **admin** can:
+      - Modify the settings of the project.
+      - Assign new members to the project.
+      - Upload new samples and use the tokenizer.
+      - Edit the sentences of a sample (like split or merge tokens ...)
+      - Use the parser.
+      - View the other users' trees
+      - Remove samples, or user's trees.
+
+- `Validator` takes the role of the linguist by choosing the validated tree between the annotators trees.
 - `Annotator` Each sample has a list of **annotators**. **Annotators** can browse and modify the treebank (modify in the sense that a modified tree is saved under their name). 
 
-- `Validators` of a sample can see all the trees and choose
-the correct version if the annotators disagree.
+- `Guest` This role is only available for private projects, where you can choose which guests can only see the tree bank.
 
 ### Inviting Collaborators
 
 You can directly invitating collaborators to your project by browsing to the project settings. You can choose to invite administrators or annotators. There, click on add button you will find a list of different users of the system you can select and add other user collaborators or use the search field to find them.
 
 <div style="text-align:center">
-      <img src="assets/images/3-Add-guest.png" alt="drawing" width="900"/>
+      <img src="assets/images/3-add-users.png" alt="drawing" width="900"/>
 </div>
 
 
