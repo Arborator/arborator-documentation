@@ -105,7 +105,7 @@ When you create a project, you are the **owner**. In this case, you have total c
 
 ### Inviting Collaborators
 
-You can directly invitating collaborators to your project by browsing to the project settings. You can choose to invite administrators or annotators. There, click on add button you will find a list of different users of the system you can select and add other user collaborators or use the search field to find them.
+You can invite collaborators directly to your project by accessing the project settings. You can search for the user in the user list, define the role and click on the "share" button.
 
 <div style="text-align:center">
       <img src="assets/images/3-add-users.png" alt="drawing" width="900"/>
