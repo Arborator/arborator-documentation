@@ -18,9 +18,9 @@
       window.$docsify = {
         name: 'Arborator-Grew',
         repo: '',
-        loadSidebar: '_sidebar.md',
+        loadSidebar: true,
+        loadNavbar: true,
         subMaxLevel: 3,
-
         logo: '/assets/images/logo.svg',
         search: {
           paths: [], // or 'auto'
@@ -32,10 +32,8 @@
         latex: {
           inlineMath   : [['$', '$'], ['\\(', '\\)']], // default
           displayMath  : [['$$', '$$']],               // default
-        }
-      
-      
-
+        },
+        homepage: 'home.md'
       }
     </script>
     <script src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
