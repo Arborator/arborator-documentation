@@ -1,6 +1,6 @@
 ## Welcome to Arborator Grew Documentation
 
-This is the official user documentation for **[Arborator Grew](https://arboratorgrew.elizia.net/#/)**
+This is the official user documentation for **[Arborator Grew](https://arboratorgrew.elizia.net/#/)** 
 
 ?> A **collaborative annotation** tool for the **treebank** developpement. 
 
