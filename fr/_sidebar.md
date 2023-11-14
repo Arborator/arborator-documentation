@@ -8,6 +8,7 @@
 * [**Synchronisation avec Github**](/fr/githubSync.md)
 * [**Parseur**](/fr/parser.md)
 * [**Annotation à l'Aveugle**](/fr/blindAnnotation.md)
+* [**Rapport de bogue / Proposition de fonctionnalité**](/fr/bugReport.md)
 
 
 

@@ -8,6 +8,7 @@
 * [**Github Synchronization**](githubSync.md)
 * [**Parser**](parser.md)
 * [**Blind Annotation**](blindAnnotation.md)
+* [**Bug Report/Feature request**](bugReport.md)
 
 
 
