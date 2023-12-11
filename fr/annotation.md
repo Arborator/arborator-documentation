@@ -52,3 +52,10 @@ Il y a une barre d'outils située en haut à gauche de la zone de la vue de l'ar
 <div style="text-align:center">
       <img src="assets/images/edit-tokens.png" alt="drawing" width="200"/>
 </div>
+
+#### Le mode diff
+
+ArboratorGrew vous aide à comparer efficacement deux annotations en utilisant le mode diff. Pour activer le mode diff, cliquez avec le bouton droit de la souris sur l'icône de l'utilisateur que vous souhaitez utiliser comme référence pour la comparaison. L'icône de l'utilisateur se transforme en chapeau de graduation et les changements sont mis en évidence en rouge dans l'arbre ouvert.
+<div style="text-align:center">
+      <img src="assets/images/diff-mode.png" alt="drawing" width="1200"/>
+</div>

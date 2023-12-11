@@ -56,3 +56,11 @@ There is a toolbar located on the top  left of the document area. From it the us
 <div style="text-align:center">
       <img src="assets/images/edit-tokens.png" alt="drawing" width="200"/>
 </div>
+
+#### Diff mode
+ArboratorGrew help you to efficiently perform pairwise comparaison between two annotations using the diff mode. To activate the diff mode, right click on the user icon that you wish to use as reference for the comparaison. The user icon will change into graduation cap and the changes will be highlighted in red in the open tree. 
+
+
+<div style="text-align:center">
+      <img src="assets/images/diff-mode.png" alt="drawing" width="1200"/>
+</div>
