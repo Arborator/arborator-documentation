@@ -1,5 +1,5 @@
 <!-- Nav bar-->
 
-* Taduction
-    * 🇫🇷 Français
-    * [🇺🇸 Englais](/)
+* Traduction
+    * Français
+    * [Anglais](/)

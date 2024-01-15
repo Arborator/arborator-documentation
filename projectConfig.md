@@ -10,8 +10,8 @@ Use the top right button to select the corresponding social login.
 
 ## Create a new project 
 
-Arborator-Grew provides new ways to collectively
-create, update, maintain and curate syntax treebanks and semantic graph banks. Arborator-Grew makes it easy to create new project and work with collaborators.
+Arborator-Grew provides new ways to collectively create, update, maintain and curate syntactic treebanks.
+Arborator-Grew makes it easy to create new project and work with collaborators.
 
 You have the possibility to create `Private` project to work on individually or with invited collaborators. Besides that, you can publish the project and make it `Visible` for everyone to see and download or set it as an `Open` project so everyone can collaborate.
 

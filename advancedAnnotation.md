@@ -54,7 +54,7 @@ directly the trees that match the negative pattern and update it.
 
 ## Lexicon 
 
-Lexicon is one of the advanced options available in **[Arborator-Grew](https://arboratorgrew.elizia.net/#)**. The user select two list of features.
+Lexicon is one of the advanced options available in **[Arborator-Grew](https://arboratorgrew.elizia.net/#)**. The user selects two list of features.
 - $L_1 = [f_1, …, f_m]$ as main features.
 - $L_2 = [g_1, …, g_m]$ as auxiliary features.
 

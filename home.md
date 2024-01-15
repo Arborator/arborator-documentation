@@ -21,26 +21,9 @@ dependency trees and graphs. Grew also has an online version, **[Grew-match](htt
 deep and surface-syntactic flavors can be queried.
 
 > **[ArboratorGrew](https://arboratorgrew.elizia.net/#/)** opens up new paths of collectively
-creating, updating, maintaining, and curating syntactic treebanks and semantic graph banks.
+creating, updating, maintaining, and curating syntactic treebanks.
 
-> **[ArboratorGrew](https://arboratorgrew.elizia.net/#/)** is adapted better to
-**[UD Universal Dependencies](https://universaldependencies.org/)** (Treebank annotation grammar) and **[SUD Surface Syntactic Universal Dependencies](https://surfacesyntacticud.github.io/)** (Distribution based version of UD).
-
-> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+> **[ArboratorGrew](https://arboratorgrew.elizia.net/#/)** is ready to be used with data following 
+**[Universal Dependencies (UD)](https://universaldependencies.org/)** or 
+**[Surface Syntactic Universal Dependencies (SUD)](https://surfacesyntacticud.github.io/)** annotation frameworks
+but it can easily be configured for other annotation schemas.
