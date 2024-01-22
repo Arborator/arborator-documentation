@@ -49,6 +49,19 @@ There is a toolbar located on the top  left of the document area. From it the us
 
 - You have also the possibility to get a `PNG`, `SVG` file and `CONLL` of the tree.
 
+
+#### Sentence segmentation
+
+Annotators are usually faced with the problem of sentence segmentation during the annotation process. They want either divide a sentence into two other sentences, or merge two sentences to form a single sentence. this can be done using the sentence segmentation feature. The following screenshots show these two options
+
+<div style="text-align:center">
+      <img src="assets/images/split-sent.png" alt="drawing" width="1000"/>
+</div>
+</br>
+<div style="text-align:center">
+      <img src="assets/images/merge-sent.png" alt="drawing" width="1000"/>
+</div>
+
 #### Tokens editing options
 
 - You have the possibility to manipulate tokens within a sentence by merging them, splitting them, or inserting a token at a particular location. To do this, just select the token you want to modify within the sentence input displayed in the tree view, and you will get a menu with these available options.
