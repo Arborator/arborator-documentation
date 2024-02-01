@@ -36,6 +36,7 @@ After connecting your ArboratorGrew account with your GitHub credentials, you ha
 </div> 
 
 - ArboratorGrew will import only the conll files that are in the root of your github repository. make sure that your github repository have flattend representation.
+- Trees will be imported under the name **validated** and all operations will be performed on these trees.
 
 ## Github workflow
 
