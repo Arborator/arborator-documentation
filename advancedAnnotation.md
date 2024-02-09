@@ -30,6 +30,8 @@ trees on the results page.
 patterns (patterns that must not appear in the graph). Once the faulty tree has been found, it  can then directly be
 edited and saved.
 
+?> Search queries and rewrite rules are storeed for future access by users. This feature is highly useful to the annotators, it enables them to keep track the modifications made to the projects using Grew rewrite rule. They can manage this history by selecting favorite queries and rules or by clearing all history. 
+
 ## Grew Rewrite
 
 With ArboratorGrew you have the ability to modify and rewrite your trees using Grew rewriting rules(see **[Grew Rules](https://grew.fr/doc/rule/)**). 
@@ -39,6 +41,8 @@ With ArboratorGrew you have the ability to modify and rewrite your trees using G
 </div>
 
 Nodes that match the specified rule will be highlighted on the results page. To save these results, you can choose to either select individual results or opt for all results and then click the 'Apply Rules' button.
+
+
 
 ## Relation tables
 

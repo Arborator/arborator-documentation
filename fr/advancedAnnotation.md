@@ -37,6 +37,8 @@ Avec ArboratorGrew, vous avez la possibilité de modifier et de réécrire vos a
 
 Les nœuds qui correspondent à la règle spécifiée seront mis en évidence sur la page des résultats. Pour sauvegarder ces résultats, vous pouvez choisir de sélectionner des résultats individuels ou opter pour l'ensemble des résultats, puis cliquer sur le bouton 'Appliquer les Règles'.
 
+?> Les requêtes de recherche et les règles de réécriture sont stockées pour permettre aux utilisateurs d'y accéder ultérieurement. Cette fonctionnalité est très utile pour les annotateurs, car elle leur permet de suivre les modifications apportées aux projets à l'aide des règles de réécriture Grew. Ils peuvent gérer cet historique en sélectionnant des requêtes et des règles favorites ou en effaçant tout l'historique.
+
 ## Relation tables
 
 ArboratorGrew offre également la possibilité de regrouper le treebank en fonction d'une ou de plusieurs caractéristiques. Ces caractéristiques peuvent être utilisées pour construire un tableau de relations qui fournit un résumé complet de toutes les dépendances au sein d'un projet, en mettant l'accent sur la relation de dépendance.
