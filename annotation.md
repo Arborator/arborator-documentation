@@ -49,10 +49,31 @@ There is a toolbar located on the top  left of the document area. From it the us
 
 - You have also the possibility to get a `PNG`, `SVG` file and `CONLL` of the tree.
 
+
+#### Sentence segmentation
+
+Annotators are usually faced with the problem of sentence segmentation during the annotation process. They want either divide a sentence into two other sentences, or merge two sentences to form a single sentence. this can be done using the sentence segmentation feature. The following screenshots show these two options
+
+<div style="text-align:center">
+      <img src="assets/images/split-sent.png" alt="drawing" width="1000"/>
+</div>
+</br>
+<div style="text-align:center">
+      <img src="assets/images/merge-sent.png" alt="drawing" width="1000"/>
+</div>
+
 #### Tokens editing options
 
 - You have the possibility to manipulate tokens within a sentence by merging them, splitting them, or inserting a token at a particular location. To do this, just select the token you want to modify within the sentence input displayed in the tree view, and you will get a menu with these available options.
 
 <div style="text-align:center">
       <img src="assets/images/edit-tokens.png" alt="drawing" width="200"/>
+</div>
+
+#### Diff mode
+ArboratorGrew help you to efficiently perform pairwise comparaison between two annotations using the diff mode. To activate the diff mode, right click on the user icon that you wish to use as reference for the comparaison. The user icon will change into graduation cap and the changes will be highlighted in red in the open tree. 
+
+
+<div style="text-align:center">
+      <img src="assets/images/diff-mode.png" alt="drawing" width="1200"/>
 </div>

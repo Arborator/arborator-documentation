@@ -1,5 +1,5 @@
 <!-- Nav bar-->
 
-* Tanslation
-    * 🇫🇷 [French](/fr/)
-    * 🇺🇸 English
+* Translation
+    * [French](/fr/)
+    * English

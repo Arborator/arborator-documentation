@@ -8,13 +8,13 @@ Lorsque vous créez un projet, vous en êtes le **propriétaire**. Dans ce cas, 
 ?> De plus, nous pouvons distinguer les rôles suivants :
 
 - **L'administrateur** dispose des mêmes options que le **propriétaire**, à l'exception de la synchronisation GitHub et de la gel du projet. **L'administrateur** peut :
-      - Modifier les paramètres du projet.
-      - Assigner de nouveaux membres au projet.
-      - Télécharger de nouveaux échantillons et utiliser le tokenizer.
-      - Modifier les phrases d'un échantillon (comme diviser ou fusionner des jetons...)
-      - Utiliser le parseur.
-      - Consulter les arbres des autres utilisateurs.
-      - Supprimer des échantillons ou des arbres d'utilisateurs.
+  - Modifier les paramètres du projet.
+  - Assigner de nouveaux membres au projet.
+  - Télécharger de nouveaux échantillons et utiliser le tokenizer.
+  - Modifier les phrases d'un échantillon (comme diviser ou fusionner des jetons...)
+  - Utiliser le parseur.
+  - Consulter les arbres des autres utilisateurs.
+  - Supprimer des échantillons ou des arbres d'utilisateurs.
 
 - **Le validateur** endosse le rôle du linguiste en corrigeant le treebank et en choisissant l'arbre validé parmi les arbres des annotateurs.
 

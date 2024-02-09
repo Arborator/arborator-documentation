@@ -10,7 +10,8 @@ Utilisez le bouton en haut à droite pour sélectionner le type de connexion soc
 
 ## Creation d'un nouveau project
 
-Arborator-Grew offre de nouvelles façons de créer, mettre à jour, entretenir et superviser collectivement des arbres syntaxiques et des banques de graphes sémantiques. Arborator-Grew facilite la création de nouveaux projets et la collaboration avec d'autres utilisateurs.
+Arborator-Grew offre de nouvelles façons de créer, mettre à jour, entretenir et superviser collectivement des corpus d'arbres syntaxiques.
+Arborator-Grew facilite la création de nouveaux projets et la collaboration avec d'autres utilisateurs.
 
 Vous avez la possibilité de créer un projet `Privé` pour travailler individuellement ou avec des collaborateurs invités. De plus, vous pouvez publier le projet et le rendre `Visible` pour que tout le monde puisse le voir et le télécharger, ou le définir comme un projet `Ouvert` afin que tout le monde puisse collaborer.
 

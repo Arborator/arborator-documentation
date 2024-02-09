@@ -8,13 +8,13 @@ When you create a project, you are the **owner**. In this case, you have total c
 ?> Also, we can distinguish the following roles:
 
 - `Administrator` has the same options as the **owner** except the github synchronization and the project freezing, The **admin** can:
-      - Modify the settings of the project.
-      - Assign new members to the project.
-      - Upload new samples and use the tokenizer.
-      - Edit the sentences of a sample (like split or merge tokens ...)
-      - Use the parser.
-      - View the other users' trees
-      - Remove samples, or user's trees.
+  - Modify the settings of the project.
+  - Assign new members to the project.
+  - Upload new samples and use the tokenizer.
+  - Edit the sentences of a sample (like split or merge tokens ...)
+  - Use the parser.
+  - View the other users' trees
+  - Remove samples, or user's trees.
 
 - `Validator` takes the role of the linguist by correcting the treebank and choosing the validated tree between the annotators trees.
 

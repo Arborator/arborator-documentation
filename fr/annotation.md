@@ -45,10 +45,30 @@ Il y a une barre d'outils située en haut à gauche de la zone de la vue de l'ar
 
 - Vous avez également la possibilité d'obtenir un fichier `PNG`, `SVG` et `CONLL` de l'arbre.
 
-#### Tokens editing options
+
+#### La segmentation des phrases
+
+Les annotateurs sont généralement confrontés au problème de la segmentation des phrases au cours du processus d'annotation. Ils veulent soit diviser une phrase en deux autres phrases, soit fusionner deux phrases pour en former une seule, ce qui peut être fait à l'aide de la fonction de segmentation des phrases. Les captures d'écran suivantes illustrent ces deux options.
+
+<div style="text-align:center">
+      <img src="assets/images/split-sent.png" alt="drawing" width="1000"/>
+</div>
+</br>
+<div style="text-align:center">
+      <img src="assets/images/merge-sent.png" alt="drawing" width="1000"/>
+</div>
+
+#### Edition des tokens
 
 - Vous avez la possibilité de manipuler les tokens au sein d'une phrase en les fusionnant, en les divisant ou en insérant un token à un emplacement particulier. Pour ce faire, il vous suffit de sélectionner le token que vous souhaitez modifier dans la phrase affichée dans la vue de l'arbre, et vous obtiendrez un menu avec ces options disponibles.
 
 <div style="text-align:center">
       <img src="assets/images/edit-tokens.png" alt="drawing" width="200"/>
+</div>
+
+#### Le mode diff
+
+ArboratorGrew vous aide à comparer efficacement deux annotations en utilisant le mode diff. Pour activer le mode diff, cliquez avec le bouton droit de la souris sur l'icône de l'utilisateur que vous souhaitez utiliser comme référence pour la comparaison. L'icône de l'utilisateur se transforme en chapeau de graduation et les changements sont mis en évidence en rouge dans l'arbre ouvert.
+<div style="text-align:center">
+      <img src="assets/images/diff-mode.png" alt="drawing" width="1200"/>
 </div>

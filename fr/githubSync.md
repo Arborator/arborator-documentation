@@ -35,6 +35,7 @@ Après avoir connecté votre compte ArboratorGrew avec vos identifiants GitHub, 
 </div> 
 
 - ArboratorGrew n'importera que les fichiers conll qui se trouvent à la racine de votre dépôt GitHub. Assurez-vous que votre dépôt GitHub a une représentation aplatie.
+- Les arbres seront importés sous le nom **validated** et toutes les opérations seront effectuées sur ces arbres.
 
 ## Flux de travail GitHub
 
