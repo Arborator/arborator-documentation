@@ -27,17 +27,23 @@ ArboratorGrew offre un ensemble exceptionnel de fonctionnalités, notamment son 
 
 ?> Pour détecter les erreurs, il est possible de filtrer ces résultats en fonction de motifs négatifs (des motifs qui ne doivent pas apparaître dans le graphe). Une fois que l'arbre défectueux a été trouvé, il peut alors être directement édité et enregistré.
 
+?> Les requêtes de recherche et les règles de réécriture sont stockées pour permettre aux utilisateurs d'y accéder ultérieurement. Cette fonctionnalité est très utile pour les annotateurs, car elle leur permet de suivre les modifications apportées aux projets à l'aide des règles de réécriture Grew. Ils peuvent gérer cet historique en sélectionnant des requêtes et des règles favorites ou en effaçant tout l'historique.
+
+<div style="text-align:center">
+      <img src="assets/images/grew-history.png" alt="drawing" width="900"/>
+</div>
+
 ## Grew Rewrite
 
 Avec ArboratorGrew, vous avez la possibilité de modifier et de réécrire vos arbres en utilisant les règles de réécriture Grew (voir **[Grew Rules](https://grew.fr/doc/rule/)**).
 
 <div style="text-align:center">
-      <img src="assets/images/grew-writing-rule.png" alt="drawing" width="900"/>
+      <img src="assets/images/grew-rewriting-rule.png" alt="drawing" width="900"/>
 </div>
 
 Les nœuds qui correspondent à la règle spécifiée seront mis en évidence sur la page des résultats. Pour sauvegarder ces résultats, vous pouvez choisir de sélectionner des résultats individuels ou opter pour l'ensemble des résultats, puis cliquer sur le bouton 'Appliquer les Règles'.
 
-?> Les requêtes de recherche et les règles de réécriture sont stockées pour permettre aux utilisateurs d'y accéder ultérieurement. Cette fonctionnalité est très utile pour les annotateurs, car elle leur permet de suivre les modifications apportées aux projets à l'aide des règles de réécriture Grew. Ils peuvent gérer cet historique en sélectionnant des requêtes et des règles favorites ou en effaçant tout l'historique.
+
 
 ## Relation tables
 
@@ -66,14 +72,14 @@ La table de sortie correspond aux valeurs possibles de toutes les caractéristiq
 Pour  $L_1 = [$`Form`, `Lemma`, `Upos`$]$ et $L_2 = [$`Gender `, `Number`$]$ 
 
 <div style="text-align:center">
-      <img src="assets/images/13-lexicon-exemple.png" alt="drawing" width="900"/>
+      <img src="assets/images/lexicon-exemple.png" alt="drawing" width="900"/>
 </div>
 
 Cela affichera les entrées où il y a plus d'un couple de valeurs pour `Genre` et `Nombre` avec la même combinaison (`Form`, `Lemme`, `Upos`).
 
 
 <div style="text-align:center">
-      <img src="assets/images/14-lexicon-ambiguous.png" alt="drawing" width="900"/>
+      <img src="assets/images/lexicon-ambiguous.png" alt="drawing" width="900"/>
 </div>
  
 Ensuite, l'utilisateur peut les corriger directement en utilisant l'option de règle de réécriture Grew.

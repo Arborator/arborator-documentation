@@ -11,9 +11,11 @@ Lorsque vous créez un projet, vous en êtes le **propriétaire**. Dans ce cas, 
   - Modifier les paramètres du projet.
   - Assigner de nouveaux membres au projet.
   - Télécharger de nouveaux échantillons et utiliser le tokenizer.
+  - Ajouter des nouvelles phrases en utilisant le tokenizer
+  - Changer la segmentation des phrases
   - Modifier les phrases d'un échantillon (comme diviser ou fusionner des jetons...)
   - Utiliser le parseur.
-  - Consulter les arbres des autres utilisateurs.
+  - Consulter les arbres des autres utilisateurs dans le mode d'annotation à l'aveugle.
   - Supprimer des échantillons ou des arbres d'utilisateurs.
 
 - **Le validateur** endosse le rôle du linguiste en corrigeant le treebank et en choisissant l'arbre validé parmi les arbres des annotateurs.

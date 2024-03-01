@@ -32,7 +32,7 @@ The required fields to create new project on Arborator-Grew in descending order 
 - The **Project Visibility**, You have the flexibility to create a `Private` project for individual work or collaboration with invited partners. Additionally, you can choose to publish the project, making it `Visible` for everyone to view and download, or designate it as an `Open` project, allowing for collaborative efforts from anyone.
 - The **Corpus Configuration**, You need also to set your project's language, simply choose it from the list of languages provided from **[the Glottolog language catalogue](https://glottolog.org/)**. Additionally, you have the option to select your preferred annotation schema, which can be either SUD, UD, EUD, or a custom annotation schema of your choice.
 
-- **Blind annotation mode**, this will set up the blind annotation propreties, explained [here](#blind-annotation-mode).
+- **Blind annotation mode**, this will set up the blind annotation propreties that's described in the next sections.
 
 Once you have provided the required information alongside your project, click on “Create” and your project will be created.
 

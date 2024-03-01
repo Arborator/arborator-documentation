@@ -28,7 +28,7 @@ After connecting your ArboratorGrew account with your GitHub credentials, you ha
 
 - You will get a list of all your github repositories filtered by the owner.
 - Select the repository that you want to sync with and the branch that you want to import.
-- After that, you will have two options: work with the branch you selected in the previous step so that all commits and pulls will be in that branch. Or create a new branch named`arboratorgrew`which will be used only for commits and pulls made with ArboratorGrew. This option will allow you preserve you main codebase integrity.
+- After that, you will have two options: work with the branch you selected in the previous step so that all commits and pulls will be in that branch. Or create a new branch we suggest `arboratorgrew` which will be used only for commits and pulls made with ArboratorGrew. This option will allow you preserve you main codebase integrity.
 
 
 <div style="text-align:center">
@@ -78,15 +78,15 @@ If you want to disconnect from the github synchronization you can remove it from
 
 As mentionned earlier, There are two ways to use the Github Feature. 
 
-The first scenario is when you're the only maintainer in ArboratorGrew and you're using the Gihtub as storage. In this case you can work  directly with the default branch without the need of using `arboratorgrew` branch.
+The first scenario is when you're the only maintainer in ArboratorGrew and you're using the Gihtub as storage. In this case you can work  directly with the default branch without the need of creating new branch branch.
 
 The second way involves collaborating with persons working on the treebank directly from Github. Make sure to follow these steps to prevent any potential conflicts, follow these steps:
 
-?> Use `arboratorgrew` branch on Github and restrict the access to this branch in order to avoid conflicts
+?> Create and use new branch on Github and restrict the access to this branch in order to avoid conflicts
 
 !> If you have uncommitted changes from collaborators working on ArboratorGrew while you're pulling changes from Github, the uncommitted changes in ArboratorGrew will be lost and overwritten by the pulled changes.
 
-If you're working with`arboratorgrew`branch from Github, proceed as follow:
+If you're working with the new branch from Github, proceed as follow:
 
 1. Push all the changes made from ArboratorGrew to Github.
 2. Try not to work on the treebank from ArboratorGrew. To do this, you need to deactivate your project using freeze project feature. This will prevent the projects annotators from adding new changes while performing the next steps.
@@ -97,7 +97,7 @@ If you're working with`arboratorgrew`branch from Github, proceed as follow:
 
 3. Merge the modifications done outside`arboratorgrew`branch from Github.
 
-?> While updating`arboratorgrew`branch you might have some conflicts, try to solve it directly from Github.
+?> While updating the branch you might have some conflicts, try to solve it directly from Github.
 
 4. Pull the changes from Github to your ArboratorGrew branch.
 

@@ -3,9 +3,20 @@
 To get started with the treebank annotation, you have two options: 
 - Import `CoNLL` file as an input. 
 - Introduce text as input and use the different options of the tokenizer.
+- There is three options for the tokenizer: **tokenizer plain text** for two languages French and english, **horizontal tokenizer** where each sentence on a separate line and **vertical tokenizer** where each token is in a separate line with an empty line indicating the end of the sentence.
+- The tokenizer is useful to add new sentences to the samples.
 
 <div style="text-align:center">
-      <img src="assets/images/upload-sample.png" alt="drawing" width="900"/>
+      <figure>
+            <img src="assets/images/upload-sample.png" alt="drawing" width="900"/>
+            <figcaption>Import Conll file</figcaption>
+      </figure>
+</div>
+<div style="text-align:center">
+      <figure>
+            <img src="assets/images/tokenizer.png" alt="drawing" width="900"/>
+            <figcaption>Tokenizer options</figcaption>
+      </figure>
 </div>
 
 Arborator translates the conll data inside into graphical trees. In the annotation user interface: 
@@ -52,14 +63,19 @@ There is a toolbar located on the top  left of the document area. From it the us
 
 #### Sentence segmentation
 
-Annotators are usually faced with the problem of sentence segmentation during the annotation process. They want either divide a sentence into two other sentences, or merge two sentences to form a single sentence. this can be done using the sentence segmentation feature. The following screenshots show these two options
+Annotators are usually faced with the problem of sentence segmentation during the annotation process. They want either divide a sentence into two other sentences, or merge two sentences to form a single sentence. This can be done using the sentence segmentation feature. The following screenshots show these two options
 
 <div style="text-align:center">
-      <img src="assets/images/split-sent.png" alt="drawing" width="1000"/>
+      <figure>
+            <img src="assets/images/split-sent.png" alt="drawing" width="1000"/>
+            <figurecaption>Sentence divison</figurecaption>
+      </figure>
 </div>
-</br>
 <div style="text-align:center">
-      <img src="assets/images/merge-sent.png" alt="drawing" width="1000"/>
+      <figure>
+            <img src="assets/images/merge-sent.png" alt="drawing" width="1000"/>
+            <figurecaption>Sentences merge</figurecaption>
+      </figure>
 </div>
 
 #### Tokens editing options

@@ -3,8 +3,19 @@ Pour commencer l'annotation du treebank, vous avez deux options :
 
 - Importer un fichier `CoNLL` en tant qu'entrée.
 - Introduire du texte en tant qu'entrée et utiliser les différentes options du tokenizer.
+Il y a trois options pour le tokenizer : **tokenizer texte brut** pour les deux langues français et anglais, **tokenizer horizontal** où chaque phrase est sur une ligne séparée et **tokenizer vertical** où chaque token est sur une ligne séparée avec une ligne vide indiquant la fin de la phrase.
+- Le tokenizer est utile pour ajouter de nouvelles phrases aux échantillons.
 <div style="text-align:center">
-      <img src="assets/images/upload-sample.png" alt="drawing" width="900"/>
+      <figure>
+            <img src="assets/images/upload-sample.png" alt="drawing" width="900"/>
+            <figcaption>Import Conll file</figcaption>
+      </figure>
+</div>
+<div style="text-align:center">
+      <figure>
+            <img src="assets/images/tokenizer.png" alt="drawing" width="900"/>
+            <figcaption>Tokenizer options</figcaption>
+      </figure>
 </div>
 Arborator traduit les données CoNLL en arbres graphiques. Voici comment fonctionne l'interface de l'annotation graphique:
 
@@ -51,11 +62,17 @@ Il y a une barre d'outils située en haut à gauche de la zone de la vue de l'ar
 Les annotateurs sont généralement confrontés au problème de la segmentation des phrases au cours du processus d'annotation. Ils veulent soit diviser une phrase en deux autres phrases, soit fusionner deux phrases pour en former une seule, ce qui peut être fait à l'aide de la fonction de segmentation des phrases. Les captures d'écran suivantes illustrent ces deux options.
 
 <div style="text-align:center">
-      <img src="assets/images/split-sent.png" alt="drawing" width="1000"/>
+      <figure>
+            <img src="assets/images/split-sent.png" alt="drawing" width="1000"/>
+            <figurecaption>Sentence divison</figurecaption>
+      </figure>
 </div>
 </br>
 <div style="text-align:center">
-      <img src="assets/images/merge-sent.png" alt="drawing" width="1000"/>
+      <figure>
+            <img src="assets/images/merge-sent.png" alt="drawing" width="1000"/>
+            <figurecaption>Sentences merge</figurecaption>
+      </figure>
 </div>
 
 #### Edition des tokens

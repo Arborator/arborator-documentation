@@ -31,13 +31,16 @@ patterns (patterns that must not appear in the graph). Once the faulty tree has 
 edited and saved.
 
 ?> Search queries and rewrite rules are storeed for future access by users. This feature is highly useful to the annotators, it enables them to keep track the modifications made to the projects using Grew rewrite rule. They can manage this history by selecting favorite queries and rules or by clearing all history. 
+<div style="text-align:center">
+      <img src="assets/images/grew-history.png" alt="drawing" width="900"/>
+</div>
 
 ## Grew Rewrite
 
 With ArboratorGrew you have the ability to modify and rewrite your trees using Grew rewriting rules(see **[Grew Rules](https://grew.fr/doc/rule/)**). 
 
 <div style="text-align:center">
-      <img src="assets/images/grew-writing-rule.png" alt="drawing" width="900"/>
+      <img src="assets/images/grew-rewriting-rule.png" alt="drawing" width="900"/>
 </div>
 
 Nodes that match the specified rule will be highlighted on the results page. To save these results, you can choose to either select individual results or opt for all results and then click the 'Apply Rules' button.
@@ -74,14 +77,14 @@ values $g$.
 For  $L_1 = [$`Form`, `Lemma`, `Upos`$]$ and $L_2 = [$`Gender `, `Number`$]$ 
 
 <div style="text-align:center">
-      <img src="assets/images/13-lexicon-exemple.png" alt="drawing" width="900"/>
+      <img src="assets/images/lexicon-exemple.png" alt="drawing" width="900"/>
 </div>
 
 This will show the entries where there is more than one couple of value for `Gender` and `Number` with the same combination (`Form`, `Lemma`, `Upos`)
 
 
 <div style="text-align:center">
-      <img src="assets/images/14-lexicon-ambiguous.png" alt="drawing" width="900"/>
+      <img src="assets/images/lexicon-ambiguous.png" alt="drawing" width="900"/>
 </div>
  
 After that, the user can correct them directly using the grew rewrite rule option.

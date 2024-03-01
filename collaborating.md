@@ -11,9 +11,11 @@ When you create a project, you are the **owner**. In this case, you have total c
   - Modify the settings of the project.
   - Assign new members to the project.
   - Upload new samples and use the tokenizer.
+  - Add new sentences to the sample using tokenizer.
+  - Change the segmentation of the sentences.
   - Edit the sentences of a sample (like split or merge tokens ...)
   - Use the parser.
-  - View the other users' trees
+  - View the other users' trees in the blind annotation mode.
   - Remove samples, or user's trees.
 
 - `Validator` takes the role of the linguist by correcting the treebank and choosing the validated tree between the annotators trees.

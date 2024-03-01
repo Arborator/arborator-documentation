@@ -1,5 +1,3 @@
-
-
 ## Parser
 ArboratorGrew also offers its own parser for analyzing and annotating Conll data. This parser is specially designed to analyze the grammatical structure of sentences and establish dependency relationships between tokens.
 

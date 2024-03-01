@@ -28,7 +28,7 @@ Après avoir connecté votre compte ArboratorGrew avec vos identifiants GitHub, 
 
 - Vous obtiendrez une liste de tous vos dépôts GitHub, filtrée par propriétaire.
 - Sélectionnez le dépôt avec lequel vous souhaitez synchroniser et la branche que vous souhaitez importer.
-- Ensuite, vous aurez deux options : travailler avec la branche que vous avez sélectionnée à l'étape précédente afin que tous les commits et pulls soient effectués dans cette branche. Ou créer une nouvelle branche nommée `arboratorgrew` qui sera utilisée uniquement pour les commits et pulls réalisés avec ArboratorGrew. Cette option permettra de préserver l'intégrité de votre base de code principale.
+- Ensuite, vous aurez deux options : travailler avec la branche que vous avez sélectionnée à l'étape précédente afin que tous les commits et pulls soient effectués dans cette branche. Ou créer et utiliser une nouvelle branche nommée `arboratorgrew` qui sera utilisée uniquement pour les commits et pulls réalisés avec ArboratorGrew. Cette option permettra de préserver l'intégrité de votre base de code principale.
 
 <div style="text-align:center">
       <img src="assets/images/2-github.png" alt="drawing" width="900"/>
@@ -78,15 +78,15 @@ Si vous souhaitez vous déconnecter de la synchronisation GitHub, vous pouvez la
 
 Comme mentionné précédemment, il existe deux façons d'utiliser la fonctionnalité GitHub.
 
-Le premier scénario est lorsque vous êtes le seul mainteneur dans ArboratorGrew et que vous utilisez GitHub comme un outil de stockage. Dans ce cas, vous pouvez travailler directement avec la branche par défaut sans avoir besoin d'utiliser la branche `arboratorgrew`.
+Le premier scénario est lorsque vous êtes le seul mainteneur dans ArboratorGrew et que vous utilisez GitHub comme un outil de stockage. Dans ce cas, vous pouvez travailler directement avec la branche par défaut sans avoir besoin d'utiliser la nouvelle branche.
 
 Le deuxième moyen implique une collaboration avec des personnes travaillant sur le treebank directement depuis GitHub. Assurez-vous de suivre ces étapes pour éviter tout conflit potentiel :
 
-?> Utilisez la branche `arboratorgrew` sur GitHub et restreignez l'accès à cette branche pour éviter les conflits.
+?> Utilisez la nouvelle branche sur GitHub et restreignez l'accès à cette branche pour éviter les conflits.
 
 !> Si vous avez des modifications non validées par des collaborateurs travaillant sur ArboratorGrew lorsque vous récupérez des modifications depuis GitHub, les modifications non validées dans ArboratorGrew seront perdues et écrasées par les modifications récupérées.
 
-Si vous travaillez avec la branche `arboratorgrew` depuis GitHub, procédez comme suit :
+Si vous travaillez avec la nouvelle branche depuis GitHub, procédez comme suit :
 
 1. Poussez toutes les modifications apportées depuis ArboratorGrew vers GitHub.
 2. Évitez de travailler sur le treebank depuis ArboratorGrew. Pour ce faire, vous devez désactiver votre projet en utilisant la fonction de gel de projet. Cela empêchera les annotateurs du projet d'apporter de nouvelles modifications tout en effectuant les étapes suivantes.
@@ -97,7 +97,7 @@ Si vous travaillez avec la branche `arboratorgrew` depuis GitHub, procédez comm
 
 3. Fusionnez les modifications faites en dehors de la branche `arboratorgrew` depuis GitHub.
 
-?> Lors de la mise à jour de la branche `arboratorgrew`, vous pourriez avoir des conflits. Essayez de les résoudre directement depuis GitHub.
+?> Lors de la mise à jour de la nouvelle branche, vous pourriez avoir des conflits. Essayez de les résoudre directement depuis GitHub.
 
 4. Récupérez les modifications depuis GitHub vers votre branche ArboratorGrew.
 
