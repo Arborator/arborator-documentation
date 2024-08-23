@@ -1,7 +1,7 @@
 * [**Getting Started**](home.md)
 * **Configuration**
     * * [Project configuration](projectConfig.md)
-    * * [Collaborating](collaborating.md)
+    * * [Collaboration](collaborating.md)
 * **Treebank graphic annotation**
     * * [Annotation](annotation.md)
     * * [Advanced Annotation Options](advancedAnnotation.md)

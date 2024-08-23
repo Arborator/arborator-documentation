@@ -14,15 +14,17 @@ These tree types will be used in the following features.
 
 ArboratorGrew offers an outstanding set of features, not least its powerful pattern search system. With **[Grew](https://grew.fr/)**, ArboratorGrew lets you search using a variety of criteria, including `POS` query, `Form` query, `Lemma` query, `Dependency Relation` query, and `Relation and Tags` query, all matched to the specific type of tree you've selected.
 
-<div style="text-align:center">
-      <img src="assets/images/grew-search.png" alt="drawing" width="900"/>
+<div style="text-align:center; border: 0.5px solid #808080;">
+      <img src="assets/images/grew-search.png" alt="drawing" width="1300"/>
 </div>
 
 ?> The nodes that match the pattern are then highlighted in the
 trees on the results page.
 
+</br>
+
 <div style="text-align:center">
-      <img src="assets/images/Grew-result.png" alt="drawing" width="900"/>
+      <img src="assets/images/Grew-result.png" alt="drawing" width="1200"/>
 </div>
 
 
@@ -31,16 +33,16 @@ patterns (patterns that must not appear in the graph). Once the faulty tree has 
 edited and saved.
 
 ?> Search queries and rewrite rules are storeed for future access by users. This feature is highly useful to the annotators, it enables them to keep track the modifications made to the projects using Grew rewrite rule. They can manage this history by selecting favorite queries and rules or by clearing all history. 
-<div style="text-align:center">
-      <img src="assets/images/grew-history.png" alt="drawing" width="900"/>
+<div style="text-align:center; border: 0.5px solid #808080;">
+      <img src="assets/images/grew-history.png" alt="drawing" width="1200"/>
 </div>
 
 ## Grew Rewrite
 
 With ArboratorGrew you have the ability to modify and rewrite your trees using Grew rewriting rules(see **[Grew Rules](https://grew.fr/doc/rule/)**). 
 
-<div style="text-align:center">
-      <img src="assets/images/grew-rewriting-rule.png" alt="drawing" width="900"/>
+<div style="text-align:center; border: 0.5px solid #808080;">
+      <img src="assets/images/grew-rewriting-rule.png" alt="drawing" width="1200"/>
 </div>
 
 Nodes that match the specified rule will be highlighted on the results page. To save these results, you can choose to either select individual results or opt for all results and then click the 'Apply Rules' button.
@@ -51,8 +53,8 @@ Nodes that match the specified rule will be highlighted on the results page. To 
 
 ArboratorGrew also offers the capability to cluster the treebank according to one or multiple features. These features can be employed to construct a relation table that provides a comprehensive summary of all dependencies within a project, focusing on the dependency relation.
 
-<div style="text-align:center">
-      <img src="assets/images/relation-table.png" alt="drawing" width="900"/>
+<div style="text-align:center; border: 0.5px solid #808080;">
+      <img src="assets/images/relation-table.png" alt="drawing" width="1200"/>
 </div> 
 
 !> Having this is a great way to look for
@@ -65,8 +67,8 @@ Lexicon is one of the advanced options available in **[Arborator-Grew](https://a
 - $L_1 = [f_1, …, f_m]$ as main features.
 - $L_2 = [g_1, …, g_m]$ as auxiliary features.
 
-<div style="text-align:center">
-      <img src="assets/images/select-lexicon-features.png" alt="drawing" width="900"/>
+<div style="text-align:center; border: 0.5px solid #808080;">
+      <img src="assets/images/select-lexicon-features.png" alt="drawing" width="1200"/>
 </div>
 
 The output table corresponds to the possible values of all features, such that for all tuples of values for $f_i$, there is more than one tuples of values for $g_i$. The idea is to show only $f$ values which are ambiguous with respect to 
@@ -76,20 +78,20 @@ values $g$.
 
 For  $L_1 = [$`Form`, `Lemma`, `Upos`$]$ and $L_2 = [$`Gender `, `Number`$]$ 
 
-<div style="text-align:center">
+<div style="text-align:center; border: 0.5px solid #808080;">
       <img src="assets/images/lexicon-exemple.png" alt="drawing" width="900"/>
 </div>
 
 This will show the entries where there is more than one couple of value for `Gender` and `Number` with the same combination (`Form`, `Lemma`, `Upos`)
 
 
-<div style="text-align:center">
+<div style="text-align:center; border: 0.5px solid #808080;">
       <img src="assets/images/lexicon-ambiguous.png" alt="drawing" width="900"/>
 </div>
  
 After that, the user can correct them directly using the grew rewrite rule option.
 <br/><br/>
-<div style="text-align:center">
+<div style="text-align:center; border: 0.5px solid #808080;">
       <img src="assets/images/modify-lexicon.png" alt="drawing" width="900"/>
 </div> 
 

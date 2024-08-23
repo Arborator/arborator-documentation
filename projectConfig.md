@@ -5,7 +5,7 @@ Arborator-Grew works with two types of social login using  **[Google]()** and **
 
 Use the top right button to select the corresponding social login.
 <div style="text-align:center">
-      <img src="assets/images/social_login.png" alt="drawing" width="200"/>
+      <img src="assets/images/social_login.png" alt="drawing" width="500"/>
 </div>
 
 ## Create a new project 
@@ -34,6 +34,8 @@ The required fields to create new project on Arborator-Grew in descending order 
 
 - **Blind annotation mode**, this will set up the blind annotation propreties that's described in the next sections.
 
+- **Collaborative mode**, in this mode the project will have different type of users and different type of trees. If the user uncheck this mode, they will be the only one who maintain the project and only validated trees will be manipulated.
+
 Once you have provided the required information alongside your project, click on “Create” and your project will be created.
 
 ## Project Configuration
@@ -44,5 +46,5 @@ After creating the project, the administrator gains access to the following conf
 - To enhance the project's utility, you can upload a cover image and add a description.
 
 <div style="text-align:center">
-      <img src="assets/images/project-config.png" alt="drawing" width="900"/>
+      <img src="assets/images/project-config.png" alt="drawing" width="1200"/>
 </div>

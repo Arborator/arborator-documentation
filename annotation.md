@@ -5,6 +5,8 @@ To get started with the treebank annotation, you have two options:
 - Introduce text as input and use the different options of the tokenizer.
 - There is three options for the tokenizer: **tokenizer plain text** for two languages French and english, **horizontal tokenizer** where each sentence on a separate line and **vertical tokenizer** where each token is in a separate line with an empty line indicating the end of the sentence.
 - The tokenizer is useful to add new sentences to the samples.
+- You can also choose different userId configuration that will be associated to your imported trees.
+- For RTL languages, users have to check the RTL option.
 
 <div style="text-align:center">
       <figure>
@@ -31,13 +33,6 @@ Arborator translates the conll data inside into graphical trees. In the annotati
 
 ?> To delete annotation, the purple delete button will allow you to delete the different parts of annotation mentionned above.
 
-
-
-<div style="text-align:center">
-      <video autoplay loop width="900">
-            <source src="assets/videos/1-Annotation.webm" type=video/webm>
-      </video>
-</div>
 
 
 ## Annotation Functionnalities

@@ -1,4 +1,3 @@
-
 ## Collaboration dans les projets
 
 L'annotation collaborative est l'une des fonctionnalités puissantes d'Arborator-Grew. Elle permet à plusieurs utilisateurs de partager l'accès au projet afin de travailler ensemble.

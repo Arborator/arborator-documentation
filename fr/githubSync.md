@@ -15,12 +15,13 @@ La première étape pour utiliser cette fonctionnalité est de vous connecter à
 Après avoir connecté votre compte ArboratorGrew avec vos identifiants GitHub, vous avez la possibilité de synchroniser votre projet ArboratorGrew avec un dépôt GitHub. Veuillez noter que vous devez être le propriétaire du dépôt ou avoir un accès en lecture/écriture. Ce processus de synchronisation peut être lancé lors de la création d'un nouveau projet ArboratorGrew.
 
 - Dans la fenêtre de création du nouveau projet, vous aurez un bouton vous demandant de synchroniser avec le dépôt GitHub.
+- L'utilisteur peut choisir le mode non collaboratif où il sera la seule personne qui maintien le projet synchronisé.
 
 <div style="text-align:center">
       <img src="assets/images/1-github.png" alt="drawing" width="900"/>
 </div> 
 
-- Ou lorsque vous cliquez sur l'icône GitHub sur la page du projet.
+- Ou lorsque vous cliquez sur le bouton "Synchroniser avec Github" dans la page du projet.
 
 <div style="text-align:center">
       <img src="assets/images/3-github.png" alt="drawing" width="900"/>

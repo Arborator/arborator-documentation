@@ -5,7 +5,7 @@ Arborator-Grew fonctionne avec deux types de connexion sociale en utilisant  **[
 
 Utilisez le bouton en haut à droite pour sélectionner le type de connexion sociale.
 <div style="text-align:center">
-      <img src="assets/images/social_login.png" alt="drawing" width="200"/>
+      <img src="assets/images/social_login.png" alt="drawing" width="500"/>
 </div>
 
 ## Creation d'un nouveau project
@@ -37,6 +37,8 @@ Les champs requis pour créer un nouveau projet sur Arborator-Grew, dans l'ordre
 
 Une fois que vous avez fourni les informations requises pour votre projet, cliquez sur "Créer" et votre projet sera créé.
 
+- **Mode Collaboratif**, dans ce mode le projet a plusieurs types d'utilisateur et différents types d'arbres. Si vous décochez cette option, vous serez la seule personne qui maintient ce projet et seulement les arbres validés qui vont être manipulés.
+
 ## La configuration du projet
 Après la création du projet, l'administrateur a accès aux paramètres de configuration suivants :
 
@@ -46,5 +48,5 @@ Après la création du projet, l'administrateur a accès aux paramètres de conf
 - Pour améliorer l'utilité du projet, vous pouvez télécharger une image de couverture et ajouter une description.
 
 <div style="text-align:center">
-      <img src="assets/images/project-config.png" alt="drawing" width="900"/>
+      <img src="assets/images/project-config.png" alt="drawing" width="1200"/>
 </div>

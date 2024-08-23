@@ -5,6 +5,9 @@ Pour commencer l'annotation du treebank, vous avez deux options :
 - Introduire du texte en tant qu'entrée et utiliser les différentes options du tokenizer.
 Il y a trois options pour le tokenizer : **tokenizer texte brut** pour les deux langues français et anglais, **tokenizer horizontal** où chaque phrase est sur une ligne séparée et **tokenizer vertical** où chaque token est sur une ligne séparée avec une ligne vide indiquant la fin de la phrase.
 - Le tokenizer est utile pour ajouter de nouvelles phrases aux échantillons.
+- Vous pouvez aussi choisir le nom d'utilisateur qui sera associé à vos arbres importés.
+- Pour les langues RTL, l'utilisateur doit cocher l'option RTL.
+
 <div style="text-align:center">
       <figure>
             <img src="assets/images/upload-sample.png" alt="drawing" width="900"/>
@@ -29,11 +32,6 @@ Arborator traduit les données CoNLL en arbres graphiques. Voici comment fonctio
 
 ?> Pour supprimer une annotation, le bouton violet de suppression vous permettra de supprimer les différentes parties d'annotation mentionnées ci-dessus.
 
-<div style="text-align:center">
-      <video autoplay loop width="900">
-            <source src="assets/videos/1-Annotation.webm" type=video/webm>
-      </video>
-</div>
 
 
 ## Annotation Functionnalities

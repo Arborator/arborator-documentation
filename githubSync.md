@@ -16,11 +16,12 @@ The first step to use this features is to login to ArboratorGrew using your gith
 After connecting your ArboratorGrew account with your GitHub credentials, you have the option of synchronizing your ArboratorGrew project with a GitHub repository. Please note that you must be the owner of the repository or have read and write access to it. This synchronization process can be launched when you create a new ArboratorGrew" project.
 
 - At "create new project" modal you will have a button that asks you to synchronize with github repository.
+- Users can choose uncheck collaborative option while creating project if they want to be the only maintainer of the synchronized project.
 <div style="text-align:center">
       <img src="assets/images/1-github.png" alt="drawing" width="900"/>
 </div> 
 
-- Or when you click on Github icon in the project page.
+- Or when you click on synchronize with github button in the project page.
 
 <div style="text-align:center">
       <img src="assets/images/3-github.png" alt="drawing" width="900"/>
