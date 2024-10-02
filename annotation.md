@@ -75,11 +75,18 @@ Annotators are usually faced with the problem of sentence segmentation during th
 
 #### Tokens editing options
 
-- You have the possibility to manipulate tokens within a sentence by merging them, splitting them, or inserting a token at a particular location. To do this, just select the token you want to modify within the sentence input displayed in the tree view, and you will get a menu with these available options.
+- You have the possibility to manipulate tokens within a sentence by merging them, splitting them, or inserting a token at a particular location. To do this, just click on the token you want to modify within tree view, and you will get a menu with these available options.
 
 <div style="text-align:center">
-      <img src="assets/images/edit-tokens.png" alt="drawing" width="200"/>
+      <img src="assets/images/edit-tokens.png" alt="drawing" width="400"/>
 </div>
+
+- This feature is also available from the conll table view. In order to display the options menu right click on the row of the concerned token.
+
+<div style="text-align:center">
+      <img src="assets/images/edit-tokens-2.png" width="900"/>
+</div>
+
 
 #### Diff mode
 ArboratorGrew help you to efficiently perform pairwise comparaison between two annotations using the diff mode. To activate the diff mode, right click on the user icon that you wish to use as reference for the comparaison. The user icon will change into graduation cap and the changes will be highlighted in red in the open tree. 

@@ -75,10 +75,16 @@ Les annotateurs sont généralement confrontés au problème de la segmentation 
 
 #### Edition des tokens
 
-- Vous avez la possibilité de manipuler les tokens au sein d'une phrase en les fusionnant, en les divisant ou en insérant un token à un emplacement particulier. Pour ce faire, il vous suffit de sélectionner le token que vous souhaitez modifier dans la phrase affichée dans la vue de l'arbre, et vous obtiendrez un menu avec ces options disponibles.
+- Vous avez la possibilité de manipuler les tokens au sein d'une phrase en les fusionnant, en les divisant ou en insérant un token à un emplacement particulier. Pour ce faire, il vous suffit de cliquer sur le token que vous souhaitez modifier dans la vue de l'arbre, et vous obtiendrez un menu avec ces options disponibles.
 
 <div style="text-align:center">
-      <img src="assets/images/edit-tokens.png" alt="drawing" width="200"/>
+      <img src="assets/images/edit-tokens.png" alt="drawing" width="400"/>
+</div>
+
+- Vous pouvez aussi avoir cette fonctionnalité à partir de la vue du tableau. Pour afficher la liste des options il suffit de cliquer avec le bouton droit de la souris sur la ligne du token concerné.
+
+<div style="text-align:center">
+      <img src="assets/images/edit-tokens-2.png" width="900"/>
 </div>
 
 #### Le mode diff
