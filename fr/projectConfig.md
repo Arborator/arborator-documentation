@@ -17,7 +17,7 @@ Vous avez la possibilité de créer un projet `Privé` pour travailler individue
 
 
 
-Pour créer un nouveau projet, vous commencez par naviguer dans **[la liste des projets](https://arboratorgrew.elizia.net/#/projects)**. Vous y trouverez un bouton d'ajout, cliquez dessus pour ouvrir le dialogue de création d'un nouveau projet.
+Pour créer un nouveau projet, vous commencez par naviguer dans **[la liste des projets](https://arborator.grew.fr/#/projects)**. Vous y trouverez un bouton d'ajout, cliquez dessus pour ouvrir le dialogue de création d'un nouveau projet.
 
 <div style="text-align:center">
       <img src="assets/images/project-creation.png" alt="drawing" width="900"/>

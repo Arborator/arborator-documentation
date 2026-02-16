@@ -1,6 +1,6 @@
 ## Welcome to ArboratorGrew Documentation
 
-This is the official user documentation for **[ArboratorGrew](https://arboratorgrew.elizia.net/#/)**
+This is the official user documentation for **[ArboratorGrew](https://arborator.grew.fr)**
 
 ?> A **collaborative annotation** tool for the **treebank** developpement. 
 
@@ -13,17 +13,17 @@ Let's have a look at the documentation.
 
 Arborator-Grew combines the features of two preexisting tools: `Arborator` and `Grew`. 
 
-> **[Arborator](https://arborator.ilpga.fr/)** is a widely used collaborative graphical online dependency treebank
+> **Arborator** was a widely used collaborative graphical online dependency treebank
 annotation tool. 
 
 > **[Grew](https://grew.fr/)** is a tool for graph querying and rewriting specialized in structures needed in NLP, i.e. syntactic and semantic
 dependency trees and graphs. Grew also has an online version, **[Grew-match](http://match.grew.fr/)**, where all Universal Dependencies treebanks in their classical,
 deep and surface-syntactic flavors can be queried.
 
-> **[ArboratorGrew](https://arboratorgrew.elizia.net/#/)** opens up new paths of collectively
+> **[ArboratorGrew](https://arborator.grew.fr)** opens up new paths of collectively
 creating, updating, maintaining, and curating syntactic treebanks.
 
-> **[ArboratorGrew](https://arboratorgrew.elizia.net/#/)** is ready to be used with data following 
+> **[ArboratorGrew](https://arborator.grew.fr)** is ready to be used with data following 
 **[Universal Dependencies (UD)](https://universaldependencies.org/)** or 
 **[Surface Syntactic Universal Dependencies (SUD)](https://surfacesyntacticud.github.io/)** annotation frameworks
 but it can easily be configured for other annotation schemas.

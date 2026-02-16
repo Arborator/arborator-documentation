@@ -59,7 +59,7 @@ ArboratorGrew offre également la possibilité de regrouper le treebank en fonct
 
 ## Lexicon 
 
-Le lexique est l'une des options avancées disponibles dans **[Arborator-Grew](https://arboratorgrew.elizia.net/#)**. L'utilisateur sélectionne deux listes de caractéristiques :
+Le lexique est l'une des options avancées disponibles dans **[Arborator-Grew](https://arborator.grew.fr)**. L'utilisateur sélectionne deux listes de caractéristiques :
 - $L_1 = [f_1, …, f_m]$ comme caractéristiques principales.
 - $L_2 = [g_1, …, g_m]$ comme caractéristiques auxiliaires.
 

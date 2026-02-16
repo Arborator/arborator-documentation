@@ -17,7 +17,7 @@ You have the possibility to create `Private` project to work on individually or 
 
 
 
-To create new project, you start by navigating to the **[Projects list](https://arboratorgrew.elizia.net/#/projects)**. You will find there add button, click on it to open the new project modal.
+To create new project, you start by navigating to the **[Projects list](https://arborator.grew.fr/#/projects)**. You will find there add button, click on it to open the new project modal.
 
 <div style="text-align:center">
       <img src="assets/images/project-creation.png" alt="drawing" width="900"/>
