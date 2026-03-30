@@ -18,9 +18,9 @@ The data will be parsed (i.e. annotated in syntactic functions and heads) and ta
 
 ## Data upload
 There are three ways to upload data for syntactic analysis on QuickParser: 
-* plain text (limit TBC) - the text needs to be pasted directly into the field provided;
+* plain text (up to 50,000 tokens, provided the anticipated number of sentences does not exceed 5,000) - the text needs to be pasted directly into the field provided;
 * text file (limit TBC) - a `.txt` file needs to be uploaded;
-* CoNLL-U file (limit TBC) - a `.conllu` file needs to be uploaded (please note that any existing syntactic annotation will be overwritten)
+* CoNLL-U file (100,000 tokens if the number of sentences is not greater than 5,000) - a `.conllu` file needs to be uploaded (please note that any existing syntactic annotation will be overwritten)
 
 ## Sentence segmentation and tokenisation
 In the case of plain text or text file upload, please be aware that QuickParser performs automatic sentence segmentation using strong punctuation **exclusively for English and French data**. For these two languages, you can leave "Plain text" option on in "Select format to parse". For other languages, "Vertical" or "Horizontal" option will need to be selected.
